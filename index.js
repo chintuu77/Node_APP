@@ -3,8 +3,7 @@ const port = process.env.PORT || 3000;
 
 const server = http.createServer((req, res) => {
   res.statusCode = 200;
-  const msg = 'Hello APPS DEPLOYER This is Gouserabbani Shaik!\n'
-  const msg = 'Hello APPS DEPLOYER This is Vivek \n'
+  const msg = 'Hello APPS DEPLOYER This is Gouserabbani Shaik! vivek\n'
   res.end(msg);
 });
 
